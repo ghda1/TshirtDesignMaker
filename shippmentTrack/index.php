@@ -26,7 +26,7 @@ include ('form.php');
         ?>
          <!-- if there is no errors show the bar -->
         <?php
-        if (isset (($_POST ['submit']))){
+        if (isset ($_POST ['submit'])){
             if(!isset($error)){
                 include ('orderStatus.php');
             }
